@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "tailwindcss": "^3.0.7"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "tailwindcss": "^2.2.7"
+  },
   "scripts": {
-  "build-css": "tailwindcss build src/style.css -o public/style.css"
+    "build-css": "tailwindcss build -i src/style.css -o public/style.css"
   },
   "keywords": [],
   "author": "",
